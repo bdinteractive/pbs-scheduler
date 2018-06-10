@@ -1,0 +1,320 @@
+{ "response": {
+  "hours": ["11 AM", "12 PM", "1 PM"],
+  "days": [
+    {
+      "day": "Monday 23",
+      "slots": [
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday 24",
+      "slots": [
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday 25",
+      "slots": [
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        }
+      ]
+    },
+    {
+      "day": "Thursday 26",
+      "slots": [
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "15",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        }
+      ]
+    },
+    {
+      "day": "Friday 27",
+      "slots": [
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        }
+      ]
+    },
+    {
+      "day": "Saturday 28",
+      "slots": [
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        }
+      ]
+    },
+    {
+      "day": "Sunday 29",
+      "slots": [
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "30",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Austin City Limits TV On The Radio/The War on Drugs",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        },
+        {
+          "mins": "60",
+          "time": "11:00 AM - 11:15 AM (AUCL 004105)",
+          "title": "Live from Lincoln Center Leslie Odom Jr. in Concert",
+          "keywords": "Music",
+          "genre": "Arts"
+        }
+      ]
+    }
+  ]
+}}
