@@ -81,17 +81,17 @@
 
                         <div class="col-md-3">
                           <h5 class="pbs-search-form__label">&nbsp;</h5>
-                          <select class="form-control input-lg pbs-search-form__input">
-                            <option>Schedule</option>
-                            <option>Traffic</option>
-                            <option>Broadcast Schedule Listings</option>
+                          <select id="form-type-dropdown" class="form-control input-lg pbs-search-form__input">
+                            <option value="scheduler">Schedule</option>
+                            <option value="scheduler">Traffic</option>
+                            <option value="documents">Broadcast Schedule Listings</option>
                           </select>
                         </div>
 
                         <div class="col-md-12">
                           <div class="input-group input-group-lg" style="text-align:center;">
                             <span class="input-group-btn">
-                              <button type="search" class="btn blue pbs-search-form__button">Apply</button>
+                              <button type="search" id="pbs-button-apply" class="btn blue pbs-search-form__button">Apply</button>
                             </span>
                           </div>
                         </div>
@@ -110,7 +110,7 @@
                   <div class="page-content-inner">
 
                     <!-- /start - PBS Switch -->
-                    <div class="row">
+                    <div id="pbs-switch" class="row">
                       <div class="col-md-12">
                         <div class="pbs-switch">
                           <span class="pbs-switch__switcher"></span>
@@ -122,6 +122,52 @@
                     <!-- /end - PBS Switch -->
 
                     <div id="scheduler" class="pbs-scheduler"></div>
+
+                    <div class="pbs-documents">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <h4 class="pbs-documents__title">Filter to:</h4>
+                          <button class="pbs-scheduler-button">Long Lead Previews</button>
+                          <button class="pbs-scheduler-button">Week by Weeks</button>
+                          <button class="pbs-scheduler-button">Logs</button>
+                          <button class="pbs-scheduler-button">Cove</button>
+                          <button class="pbs-scheduler-button">Embedded Promos</button>
+                          <button class="pbs-scheduler-button">Passport</button>
+                        </div>
+                        <div class="col-md-9">
+                          <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th>1-15 of 125 entries</th>
+                                <th>Date Updated</th>
+                              </tr>
+                            </thead>
+                            <tbody id="documents">
+                              
+                            </tbody>
+                          </table>
+                          <nav>
+                            <ul class="pagination">
+                              <li>
+                                <a href="#">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li>
+                                <a href="#">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
 
 
                   </div><!-- /end - page-content-inner -->
@@ -145,6 +191,23 @@
         console.log("PBS Scheduler App JS Loading...");
         // Loads data on load of the page
         loadSupport();
+
+        $("#pbs-button-apply").on("click", function(e){
+          e.preventDefault();
+          console.log($("#form-type-dropdown").val());
+          var value = $("#form-type-dropdown").val();
+          if(value === "documents"){
+            $("#pbs-switch").hide();
+            $("#scheduler").hide();
+            $(".pbs-documents").show();
+            loadDocuments();
+          }
+          if(value === "scheduler"){
+            $("#pbs-switch").show();
+            $("#scheduler").show();
+            $(".pbs-documents").hide();
+          }
+        });
       });
 
       var loadSupport = function() {
@@ -235,6 +298,22 @@
           $("#scheduler").html(items);
         });
       }
+
+      var loadDocuments = function() {
+        $.getJSON("api-documents.json", function(data) {
+          // console.log(data);
+          var items = "";
+          $.each(data.response.documents, function(index, value) {
+            console.log(value);
+            items += "<tr>";
+            items += "<td>" + value.title + "</td>";
+            items += "<td>" + value.date + "</td>";
+            items += "</tr>";
+          });
+          $("#documents").html(items);
+        });
+      }
+
       $('.pbs-switch').on("click", function(){
         $(this).toggleClass('pbs-switch--isSwitched');
         console.log(PBS_SCHEDULER_STORE.SWITCH_TYPE);

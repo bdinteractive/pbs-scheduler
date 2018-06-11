@@ -4,7 +4,6 @@
 
 /* PBS Scheduler Styles */
 
-
 .pbs-scheduler {
   display: flex;
   flex-direction: row;
@@ -96,12 +95,27 @@
 
 
 
+.pbs-documents {
+  display: none;
+  padding-top: 75px;
+}
 
+.pbs-documents__title {
+  color: #ff7300;
+  font-size: 18px;
+  font-weight: bold;
+}
 
-
-
-
-
+.pbs-scheduler-button {
+  display: block;
+  width: 100%;
+  background-color: #1b6fb3;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 10px;
+  border: none;
+  font-size: 14px;
+}
 
 
 
